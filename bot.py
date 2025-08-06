@@ -140,7 +140,7 @@ async def create_telegraph_page(title: str, content: str) -> Optional[str]:
             title=clean_title,
             html_content=content,
             author_name="MetadataInfoBot",
-            author_url="https://t.me/MetadataInfoBot"
+            author_url="https://t.me/MetadataXBot"
         )
         
         if not response or 'path' not in response:
